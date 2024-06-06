@@ -1,11 +1,12 @@
 import React from 'react'
 import Link from "next/link"
+import Image from 'next/image'
 
 const Card = (props) => {
   return (
     <div className="bg-white rounded-lg overflow-hidden shadow-md dark:bg-gray-950 dark:text-white">
         <Link href="#" className="block" prefetch={false}>
-          <img
+          <Image
             src="https://static.tildacdn.pro/tild3039-3932-4433-b533-613365646663/722bab55-4a08-4e09-a.png"
             alt="Blog Post Image"
             width={600}
